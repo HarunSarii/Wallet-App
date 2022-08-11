@@ -30,9 +30,7 @@ const useStyles = makeStyles({
         margin: 20,
         padding: 20,
         display: 'flex',
-        // alignItems: 'center',
         flexDirection: 'column',
-        // width: '70%'
     },
     account: {
         padding: 20,
@@ -160,7 +158,7 @@ const Home = () => {
                 </Button>
                 <Button
                     className={classes.deactivateButton}
-                    sx={{ backgroundColor: active ? '#ff5656' : '#88b2e8', color: 'gray', margin: 2 }}
+                    sx={{ backgroundColor: active ? '#ff5656' : '#88b2e8', color: 'black', fontWeight: 600, margin: 2 }}
                     onClick={disconnect}
                 >
                     Deactivate
